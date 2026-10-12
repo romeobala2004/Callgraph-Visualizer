@@ -1,0 +1,10 @@
+Call Tree:
+Callgraph Visualizer
+├── init_server()
+│   ├── create_socket()
+│   └── bind_port()
+├── accept_loop()
+│   └── handle_client()
+│       ├── parse_request()
+│       └── send_response()
+└── cleanup()
